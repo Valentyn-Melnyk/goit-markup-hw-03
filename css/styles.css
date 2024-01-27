@@ -43,11 +43,11 @@ img {
 .container-flex {
   display: flex;
 }
+
 .navigation {
   display: flex;
   align-items: center;
 }
-
 .navigation-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -59,8 +59,6 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .navigation-logo-studio {
@@ -227,8 +225,9 @@ img {
 .our-team-items {
   background: #fff;
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 .our-team-member {
@@ -312,8 +311,8 @@ img {
 .footer-logo-studio {
   color: #f4f4fd;
 }
-
 .footer-text {
+  max-width: 264px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
