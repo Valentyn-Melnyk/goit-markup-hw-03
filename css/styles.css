@@ -58,18 +58,18 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  margin-right: 76px;
 }
 .navigation-logo-studio {
   color: #2e2f42;
   width: 71px;
+  margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation-menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .navigation-menu-items {
@@ -127,7 +127,6 @@ img {
 }
 
 .order-service-button {
-  display: block;
   background-color: #4d5ae5;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -136,15 +135,17 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  display: inline-flex;
   padding: 16px 32px;
-  align-items: flex-start;
   gap: 10px;
-
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
+
 .order-service-button:hover,
 .order-service-button:focus {
   background-color: #404bbf;
