@@ -31,7 +31,6 @@ img {
 }
 
 .container {
-  display: flex;
   margin: 0 auto;
   max-width: 1440px;
   width: 1158px;
@@ -41,6 +40,9 @@ img {
   padding-right: 15px;
 }
 
+.container-flex {
+  display: flex;
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -56,6 +58,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 .navigation-logo-studio {
   color: #2e2f42;
@@ -65,7 +68,8 @@ img {
 .navigation-menu {
   display: flex;
   gap: 40px;
-  /* padding: 24px 76px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation-menu-items {
@@ -84,6 +88,8 @@ img {
 .address {
   font-style: normal;
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address-items {
   display: flex;
@@ -103,9 +109,14 @@ img {
 
 .solution {
   background-color: #2e2f42;
-}
-.solution-header {
   padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.solution-header {
+  display: block;
+  /* padding-top: 188px; */
+  max-width: 496px;
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -116,6 +127,7 @@ img {
 }
 
 .order-service-button {
+  display: block;
   background-color: #4d5ae5;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -128,10 +140,10 @@ img {
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
+
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-bottom: 188px;
 }
 .order-service-button:hover,
 .order-service-button:focus {
