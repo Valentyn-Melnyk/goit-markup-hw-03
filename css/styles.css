@@ -27,21 +27,23 @@ img {
 
 .header {
   display: flex;
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.container {
   display: flex;
   margin: 0 auto;
   max-width: 1440px;
   width: 1158px;
   flex-shrink: 0;
-  border-bottom: 1px solid #e7e9fc;
   background: #8a3e3e;
-  padding: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .navigation-logo {
