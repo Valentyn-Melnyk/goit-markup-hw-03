@@ -4,19 +4,31 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #e9fc1d;
+  background-color: #fff;
   font-size: 16px;
   font-weight: 500;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
 }
 
 img {
@@ -35,7 +47,6 @@ img {
   max-width: 1440px;
   width: 1158px;
   flex-shrink: 0;
-  background: #8a3e3e;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -69,6 +80,7 @@ img {
 .navigation-menu {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 
 .navigation-menu-items {
@@ -80,6 +92,7 @@ img {
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .navigation-menu-items:hover,
 .navigation-menu-items:focus {
@@ -89,8 +102,8 @@ img {
 .address {
   font-style: normal;
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-left: 332px;
+  margin-top: 24px;
 }
 .address-items {
   display: flex;
@@ -101,6 +114,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   gap: 40px;
+  list-style-type: none;
 }
 
 .address-items:hover,
@@ -124,6 +138,7 @@ img {
   font-style: normal;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin: 0 auto;
 }
 
 .order-service-button {
@@ -144,6 +159,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  margin: 0 auto;
 }
 
 .order-service-button:hover,
@@ -171,7 +187,7 @@ img {
 
 .advantages-container {
   display: flex;
-  background: #a06969;
+  background: #fff;
 }
 
 .advantages-list {
@@ -271,6 +287,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  list-style-type: none;
 }
 .portfolio-items {
   width: calc((100% - 2 * 24px) / 3);
