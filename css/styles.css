@@ -137,7 +137,10 @@ img {
   font-style: normal;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  margin-top: 0;
 }
 
 .order-service-button {
